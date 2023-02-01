@@ -1,0 +1,47 @@
+.noContent {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--gray-600);
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px 8px 0 0;
+  height: 50vh;
+  margin-top: 1.375rem;
+  padding-top: 4rem;
+  align-items: center;
+}
+
+.noContent svg {
+  opacity: 0.3;
+  margin-bottom: 1rem;
+}
+
+.noContent p {
+  line-height: 1.4;
+}
+.noContent p.firstMsg{
+  font-weight: 700;
+}
+
+.info {
+  display: flex;  
+  justify-content: space-between;
+  margin-top: 4rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.info .tasksCreated {
+  color: var(--blue-300);
+}
+
+.info .tasksDone {
+  color: var(--purple-300);
+}
+
+.info span {
+  color: var(--white);
+  background: var(--gray-400);
+  border-radius: 9999px;
+  padding: 0.125rem 0.5rem;
+  margin-left: 0.5rem;
+}

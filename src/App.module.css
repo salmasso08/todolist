@@ -1,0 +1,5 @@
+.wrapper {
+  max-width: 46rem; /* 736px */
+  margin: 2rem auto;
+  align-items: flex-start;
+}
